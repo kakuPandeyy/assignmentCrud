@@ -1,0 +1,8 @@
+export const host = import.meta.env.VITE_API_URL;
+export const registerRoute = `${host}/api/auth/register`;
+export const logInRouter = `${host}/api/auth/login`;
+export const deletePostRouter = `${host}/api/deletePost`;
+export const createPostRouter = `${host}/api/createPost`;
+export const updatePostPostRouter = `${host}/api/updatePost`;
+export const getPostRouter = `${host}/api/getPosts`;
+export const getUserRouter = `${host}/api/user`;

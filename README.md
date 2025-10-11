@@ -52,8 +52,8 @@ npm start
 ## Environment Variables (.env)
 
 ```bash
-MONGO_URL=your_mongodb_connection_string 
-JWT_SECRET=your_jwt_secret
+MONGO_URL=mongodb://127.0.0.1:27017/crudappTest
+JWT_SECRET=your_secret
 HOST_URL = http://localhost:5173
 PORT = 5000
 ```

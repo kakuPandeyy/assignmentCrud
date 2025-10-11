@@ -47,7 +47,7 @@ export const register = async (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    return res.json({ message: 'some technical issue try after some time' });
+    return res.status(500).json({ message: 'some technical issue try after some time' });
   }
 };
 
@@ -89,6 +89,6 @@ export const login = async (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    return res.json({ message: error });
+    return res.status(500).json({ message: 'some technical issue try after some time' });
   }
 };

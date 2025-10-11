@@ -22,7 +22,7 @@ app.use(express.json()); // automatically parse incoming JSON data from HTTP req
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => console.log('MongoDB Connected'))
-  .catch(err => console.log(err));
+  .catch(err => console.error(err));
 
 // API Routes
 // Authentication routes (e.g., register, login)

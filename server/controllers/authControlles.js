@@ -19,6 +19,8 @@ export const register = async (req, res) => {
     }
     // Hash the plain-text password before saving to the database
     // bcrypt.hash(password, 10) uses 10 salt rounds — more rounds = stronger (but slower) hashing
+
+    console.log(password)
     const hashedPassword = await brcypt.hash(password, 10);
 
     // Create a new user in the database with the hashed password (never store plain text!)

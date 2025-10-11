@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "421d33f1-f07e-4feb-8878-d8d49dc7a1a8",
+		"name": "crudApp",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "49195745",
+		"_collection_link": "https://kakupandey2017-2634541.postman.co/workspace/Abhishek-Pandey's-Workspace~3e7020c9-e96b-4b06-8247-b564d84abac0/collection/49195745-421d33f1-f07e-4feb-8878-d8d49dc7a1a8?action=share&source=collection_link&creator=49195745"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"test\",\r\n \"password\":\"password\",\r\n  \"email\":\"test@gmail.com\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseURL}}/api/auth/register"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"ram@gmail.com\",\r\n  \"password\": \"ram@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{baseURL}}/api/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Posts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIwNzU1MSwiZXhwIjoxNzYwMjExMTUxfQ.CfWl6hhvJ8LCO0idanmnH5GNpdaNxrLincFq7Dceo-M"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "{{baseURL}}/api/getPosts"
+			},
+			"response": []
+		},
+		{
+			"name": "create post",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIwNjQ5NiwiZXhwIjoxNzYwMjEwMDk2fQ.36AIsDx9EcUmHA9KquWA23TeBkh3xyfVLLOoOXuWKWk"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"message\":\"please add me\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/createPost"
+			},
+			"response": []
+		},
+		{
+			"name": "update post",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIwNjQ5NiwiZXhwIjoxNzYwMjEwMDk2fQ.36AIsDx9EcUmHA9KquWA23TeBkh3xyfVLLOoOXuWKWk"
+					}
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"message\":\"new upadete one\"\r\n  }"
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/updatePost/:id",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"updatePost",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68ea50be80b5bc2466ee05cc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete Post",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIwNjQ5NiwiZXhwIjoxNzYwMjEwMDk2fQ.36AIsDx9EcUmHA9KquWA23TeBkh3xyfVLLOoOXuWKWk"
+					}
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/deletePost/:id",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"deletePost",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68e9eb8f0209cfc83467978f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "all users",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		}
+	]
+}

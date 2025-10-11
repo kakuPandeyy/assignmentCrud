@@ -47,7 +47,7 @@ export const updatePosts = async (req, res) => {
       // return updated post
       res.json(updatedPost);
     } else {
-      return res.status(401).json({ message: 'unAuth access' });
+      return res.status(401).json({ message: ' only who post the video can update it you are not owner of this post' });
     }
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -73,7 +73,7 @@ export const deletePosts = async (req, res) => {
     } else {
       return res
         .status(401)
-        .json({ message: 'unAuth access', postedBy: post.postedBy, userId: req.userId });
+        .json({ message: ' only who post the video can delete it you are not owner of this post' });
     }
   } catch (error) {
     res.status(500).json({ message: error.message });

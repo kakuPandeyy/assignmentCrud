@@ -11,18 +11,22 @@ export default function FormField({
   formData,
   errors,
 }) {
+  //for password toggle hook
   const [showPassword, setShowPassword] = useState(false);
-
+  //variable for checking and only password get toggle button
   const inputType = fieldName === 'password' && showPassword ? 'text' : type;
 
   return (
     <>
+      {/* label */}
       <label className="block text-sm font-medium text-slate-300 mb-2">{label}</label>
+      {/* Inside field element */}
       <div className="relative group">
+        {/* icon */}
         <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-          {/* <Mail className="w-5 h-5 text-slate-500 group-focus-within:text-cyan-400 transition-colors" /> */}
           {icon}
         </div>
+        {/* input area */}
         <input
           type={inputType}
           name={fieldName}
@@ -33,7 +37,7 @@ export default function FormField({
           } rounded-xl focus:outline-none focus:border-cyan-500/50 focus:bg-slate-800 text-white placeholder-slate-500 transition-all duration-300`}
           placeholder={placeholder}
         />
-
+        {/* render password button to only password field */}
         {fieldName === 'password' && (
           <button
             type="button"
@@ -44,6 +48,7 @@ export default function FormField({
           </button>
         )}
       </div>
+      {/* show error when validation fails, only those who fails get this error after clicking submit  */}
       {errors[fieldName] && (
         <p className="mt-2 text-sm text-red-400 flex items-center gap-1">
           <span className="w-1 h-1 bg-red-400 rounded-full"></span>

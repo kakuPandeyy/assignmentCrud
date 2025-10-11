@@ -9,7 +9,10 @@ import './App.css';
 function App() {
   return (
     <>
-      <ToastContainer position="top-right" autoClose={2000} theme="colored" hideProgressBar />
+      {/* ToastContainer for notification if password invalid or any error come from server  */}
+
+      <ToastContainer position="top-right" autoClose={650} theme="colored" hideProgressBar />
+
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard />} />

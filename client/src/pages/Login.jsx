@@ -1,13 +1,15 @@
 import { useState } from 'react';
-import { Mail, Lock, LogOut, User } from 'lucide-react';
-
+import { Mail, Lock } from 'lucide-react';
 import Form from '../components/Form';
 import { logInRouter } from '../utils/apiRoutes';
 
 export default function Login() {
+  // all validation error object
   const [errors, setErrors] = useState({});
-
+  // all form data object
   const [formData, setFormData] = useState({});
+
+  //validation function validate all fieds in formData and , unvalidate goes to errors (useState hook)
 
   const validateForm = () => {
     const newErrors = {};
@@ -15,7 +17,7 @@ export default function Login() {
     if (!formData.email) {
       newErrors.email = 'Email is required';
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      // this check if email is valid
+      // this check if email  is in formate  or not
       newErrors.email = 'Email is invalid';
     }
 
@@ -29,9 +31,11 @@ export default function Login() {
     return Object.keys(newErrors).length === 0;
   };
 
+  //fields requred in form components
+
   const fields = [
     {
-      keyId: '123',
+      keyId: '123', // hardcoded key for dealing key prop requried error
       labal: ' Email Address',
       placeholder: 'your@email.com',
       fieldName: 'email',
@@ -53,6 +57,7 @@ export default function Login() {
 
   return (
     <>
+      {/* login form */}
       <Form
         signIn={true}
         formData={formData}

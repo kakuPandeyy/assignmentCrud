@@ -5,9 +5,11 @@ import Form from '../components/Form';
 import { registerRoute } from '../utils/apiRoutes';
 
 export default function Register() {
+  // all validation error object
   const [errors, setErrors] = useState({});
+  // all form data object
   const [formData, setFormData] = useState({});
-
+  //validation function validate all fieds in formData and , unvalidate goes to errors (useState hook)
   const validateForm = () => {
     const newErrors = {};
 
@@ -39,7 +41,7 @@ export default function Register() {
 
   const fields = [
     {
-      keyId: '100',
+      keyId: '100', // hardcoded key for dealing key prop requried error
       labal: ' Name ',
       placeholder: 'ram',
       fieldName: 'name',
@@ -80,6 +82,7 @@ export default function Register() {
 
   return (
     <>
+      {/* register form */}
       <Form
         signIn={false}
         formData={formData}

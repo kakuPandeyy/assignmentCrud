@@ -6,3 +6,4 @@ export const createPostRouter = `${host}/api/createPost`;
 export const updatePostPostRouter = `${host}/api/updatePost`;
 export const getPostRouter = `${host}/api/getPosts`;
 export const getUserRouter = `${host}/api/user`;
+export const getAllUserRouter = `${host}/api/alluser`;

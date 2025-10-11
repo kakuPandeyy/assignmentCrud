@@ -44,6 +44,7 @@ npm start
 MONGO_URL=your_mongodb_connection_string 
 JWT_SECRET=your_jwt_secret
 HOST_URL = http://localhost:5173
+PORT = 5000
 ```
 
 ## Setup Frontend

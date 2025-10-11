@@ -1,0 +1,736 @@
+POST http://localhost:5000/api/auth/register: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 58472
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "e6d06a2e-7290-44b2-a20b-0124f82a78c2",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "73"
+  },
+  "Request Body": "{\"name\":\"test\",\r\n \"password\":\"password\",\r\n  \"email\":\"test@gmail.com\"\r\n  }",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "54",
+    "etag": "W/\"36-zhk3mkNN1blEs/QgWaB/TXQKTzg\"",
+    "date": "Sat, 11 Oct 2025 21:26:54 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"some technical issue try after some time\"}"
+}
+POST http://localhost:5000/api/auth/register: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 49327
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "fcfb1bba-fcc9-485b-b0ea-3351a4d63b30",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "73"
+  },
+  "Request Body": "{\"name\":\"test\",\r\n \"password\":\"password\",\r\n  \"email\":\"test@gmail.com\"\r\n  }",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "54",
+    "etag": "W/\"36-zhk3mkNN1blEs/QgWaB/TXQKTzg\"",
+    "date": "Sat, 11 Oct 2025 21:27:51 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"some technical issue try after some time\"}"
+}
+POST http://localhost:5000/api/auth/register: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 51317
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "57ba5120-d5f0-4950-922b-7876fcd95d7e",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "73"
+  },
+  "Request Body": "{\"name\":\"test\",\r\n \"password\":\"password\",\r\n  \"email\":\"test@gmail.com\"\r\n  }",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "36",
+    "etag": "W/\"24-xAhWjWEZo8cJa0aqT0r5hmebPlM\"",
+    "date": "Sat, 11 Oct 2025 21:28:40 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"email is already exist\"}"
+}
+POST http://localhost:5000/api/auth/register: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 51322
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "028639d7-995d-492b-831f-3c5dc69d4e63",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "75"
+  },
+  "Request Body": "{\"name\":\"test01\",\r\n \"password\":\"password\",\r\n  \"email\":\"test@gmail.com\"\r\n  }",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "36",
+    "etag": "W/\"24-xAhWjWEZo8cJa0aqT0r5hmebPlM\"",
+    "date": "Sat, 11 Oct 2025 21:28:57 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"email is already exist\"}"
+}
+POST http://localhost:5000/api/auth/register: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 51325
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "8661ef99-d389-4f61-a9eb-407f2cb0d10c",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "78"
+  },
+  "Request Body": "{\"name\":\"test01\",\r\n \"password\":\"password\",\r\n  \"email\":\"test011@gmail.com\"\r\n  }",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "330",
+    "etag": "W/\"14a-vdIMh/3BeTPqwWPwIajKyXb4r3o\"",
+    "date": "Sat, 11 Oct 2025 21:29:09 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"User registered successfully\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZWFjYzI1NDcyZjE0ZWQyZTQ5YjdjYiIsImVtYWlsIjoidGVzdDAxMUBnbWFpbC5jb20iLCJpYXQiOjE3NjAyMTgxNDksImV4cCI6MTc2MDIyMTc0OX0.0CCzBoTgXmHjEcyeE3RfbNb-S-r6jeSDjyyKjd4SwvM\",\"user\":{\"id\":\"68eacc25472f14ed2e49b7cb\",\"email\":\"test011@gmail.com\"}}"
+}
+POST http://localhost:5000/api/auth/login: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 63006
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "abab97fe-371a-4d77-afef-e13b66e1fb5e",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "64"
+  },
+  "Request Body": "{\r\n  \"email\": \"ram@gmail.com\",\r\n  \"password\": \"ram@gmail.com\"\r\n}",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "309",
+    "etag": "W/\"135-RCsjk5xyRTuYNpXPKOPZH/WLehg\"",
+    "date": "Sat, 11 Oct 2025 21:29:52 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"Login successful\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODE5MiwiZXhwIjoxNzYwMjIxNzkyfQ.0a5zDaKIFcnFRSDwJ-j_-TusZA94j7NxNyu1ERLhTgU\",\"user\":{\"id\":\"68e89f77247ece424b11fce3\",\"email\":\"ram@gmail.com\"}}"
+}
+POST http://localhost:5000/api/auth/login: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 63010
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "275eac7b-2f17-4d51-bcf5-9a023d0738ac",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "66"
+  },
+  "Request Body": "{\r\n  \"email\": \"ram@gmail.com\",\r\n  \"password\": \"ramss@gmail.com\"\r\n}",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "32",
+    "etag": "W/\"20-La30IV3IxG4lUSPZkoBsB25RUbw\"",
+    "date": "Sat, 11 Oct 2025 21:30:10 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"Incorrect password\"}"
+}
+POST http://localhost:5000/api/auth/login: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 63013
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "9e6538d9-7c67-491f-81bb-a9ec0a417a23",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "66"
+  },
+  "Request Body": "{\r\n  \"email\": \"rddam@gmail.com\",\r\n  \"password\": \"ram@gmail.com\"\r\n}",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "28",
+    "etag": "W/\"1c-ZEVVcvtFhxKX/QUvVKqKxwGbbNA\"",
+    "date": "Sat, 11 Oct 2025 21:30:21 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"User not found\"}"
+}
+POST http://localhost:5000/api/auth/login: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64832
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "74391a4f-d8a5-467a-a86e-44b8242a275c",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "64"
+  },
+  "Request Body": "{\r\n  \"email\": \"ram@gmail.com\",\r\n  \"password\": \"ram@gmail.com\"\r\n}",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "54",
+    "etag": "W/\"36-zhk3mkNN1blEs/QgWaB/TXQKTzg\"",
+    "date": "Sat, 11 Oct 2025 21:32:46 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"some technical issue try after some time\"}"
+}
+GET http://localhost:5000/api/getPosts: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 64844
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIwNzU1MSwiZXhwIjoxNzYwMjExMTUxfQ.CfWl6hhvJ8LCO0idanmnH5GNpdaNxrLincFq7Dceo-M",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "a42082fb-fea4-4696-a331-66a4b369bec0",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "27",
+    "etag": "W/\"1b-w4O8U+0Ll+sSArmfAX18RvhWpiQ\"",
+    "date": "Sat, 11 Oct 2025 21:33:16 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"Invalid token\"}"
+}
+POST http://localhost:5000/api/auth/login: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 57054
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "eb8d43a6-8e46-47d9-94c4-22b61aafcb2e",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "64"
+  },
+  "Request Body": "{\r\n  \"email\": \"ram@gmail.com\",\r\n  \"password\": \"ram@gmail.com\"\r\n}",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "309",
+    "etag": "W/\"135-n8N+pHECU5l0eZ37Jwe73ZFcM2c\"",
+    "date": "Sat, 11 Oct 2025 21:33:28 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"Login successful\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8\",\"user\":{\"id\":\"68e89f77247ece424b11fce3\",\"email\":\"ram@gmail.com\"}}"
+}
+GET http://localhost:5000/api/getPosts: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 57074
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "f6049d2b-4946-44fc-a2bb-22bb600aecb0",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1275",
+    "etag": "W/\"4fb-oA1uF0AvHf4CmsrPxuToy5GJHuo\"",
+    "date": "Sat, 11 Oct 2025 21:33:54 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"_id\":\"68eaaccc63ec702dd5d2c7fc\",\"message\":\"hello\",\"postedBy\":\"68e801120507f1edc9490468\",\"createdAt\":\"2025-10-11T19:15:24.445Z\",\"updatedAt\":\"2025-10-11T19:15:24.445Z\",\"__v\":0},{\"_id\":\"68ea9f661f1ea02afc626ee0\",\"message\":\"please add me\",\"postedBy\":\"68e89f77247ece424b11fce3\",\"createdAt\":\"2025-10-11T18:18:14.166Z\",\"updatedAt\":\"2025-10-11T18:18:14.166Z\",\"__v\":0},{\"_id\":\"68ea5b3180b5bc2466ee0713\",\"message\":\"ddddddddddddddddddddddd\",\"postedBy\":\"68e89f77247ece424b11fce3\",\"createdAt\":\"2025-10-11T13:27:13.092Z\",\"updatedAt\":\"2025-10-11T13:27:13.092Z\",\"__v\":0},{\"_id\":\"68ea50be80b5bc2466ee05cc\",\"message\":\"new upadete one\",\"postedBy\":\"68e89f77247ece424b11fce3\",\"createdAt\":\"2025-10-11T12:42:38.425Z\",\"updatedAt\":\"2025-10-11T18:27:17.015Z\",\"__v\":0},{\"_id\":\"68ea423aa2c4f0a6f1d13f35\",\"message\":\"hello\",\"postedBy\":\"68e801120507f1edc9490468\",\"createdAt\":\"2025-10-11T11:40:42.701Z\",\"updatedAt\":\"2025-10-11T11:40:42.701Z\",\"__v\":0},{\"_id\":\"68ea3daf1ce1c9fd42946b08\",\"message\":\"ksku\",\"postedBy\":\"68ea3da41ce1c9fd42946b02\",\"createdAt\":\"2025-10-11T11:21:19.213Z\",\"updatedAt\":\"2025-10-11T11:21:19.213Z\",\"__v\":0},{\"_id\":\"68e9eb8f0209cfc83467978f\",\"message\":\"kaku \",\"postedBy\":\"68e801120507f1edc9490468\",\"createdAt\":\"2025-10-11T05:30:55.176Z\",\"updatedAt\":\"2025-10-11T05:30:55.176Z\",\"__v\":0}]"
+}
+POST http://localhost:5000/api/createPost: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 53930
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "b3e3d304-d629-4868-b5cb-1c60f0f58723",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "27"
+  },
+  "Request Body": "{\"message\":\"please add me\"}",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "231",
+    "etag": "W/\"e7-NUXXq/rQs8M4+G4O4XAQGmQItY0\"",
+    "date": "Sat, 11 Oct 2025 21:34:42 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"Post created successfully\",\"post\":{\"message\":\"please add me\",\"postedBy\":\"68e89f77247ece424b11fce3\",\"_id\":\"68eacd724b7a8f4e811a786d\",\"createdAt\":\"2025-10-11T21:34:42.322Z\",\"updatedAt\":\"2025-10-11T21:34:42.322Z\",\"__v\":0}}"
+}
+PUT http://localhost:5000/api/updatePost/68ea50be80b5bc2466ee05cc: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 53946
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "149360c5-bec6-4db4-bf0c-0e40d14ba4bd",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "33"
+  },
+  "Request Body": "{\"message\":\"new upadete one\"\r\n  }",
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "186",
+    "etag": "W/\"ba-cJbfrYurwAHR8qqoT84Z5KjXCaM\"",
+    "date": "Sat, 11 Oct 2025 21:35:05 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"_id\":\"68ea50be80b5bc2466ee05cc\",\"message\":\"new upadete one\",\"postedBy\":\"68e89f77247ece424b11fce3\",\"createdAt\":\"2025-10-11T12:42:38.425Z\",\"updatedAt\":\"2025-10-11T21:35:05.121Z\",\"__v\":0}"
+}
+DELETE http://localhost:5000/api/deletePost/68e9eb8f0209cfc83467978f: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 53955
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "d96dcb62-8ac7-4bb7-a2e9-bab7b0528c5b",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "83",
+    "etag": "W/\"53-ynpDkTC89Vn2H8S7W9BnRfp7okM\"",
+    "date": "Sat, 11 Oct 2025 21:35:20 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\" only who post the video can delete it you are not owner of this post\"}"
+}
+DELETE http://localhost:5000/api/deletePost/68eacd724b7a8f4e811a786d: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61212
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "c5723049-cb70-42fb-86fd-c009fb889362",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "39",
+    "etag": "W/\"27-ApdGuEKF5DvnjukxrpHUpaQnnd8\"",
+    "date": "Sat, 11 Oct 2025 21:36:10 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"Post deleted successfully\"}"
+}
+GET http://localhost:5000/api/user/68e801120507f1edc9490468: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 59336
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer 68eacd724b7a8f4e811a786d",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "5668dec4-c60b-4fbb-a991-15578f77db67",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "27",
+    "etag": "W/\"1b-w4O8U+0Ll+sSArmfAX18RvhWpiQ\"",
+    "date": "Sat, 11 Oct 2025 21:36:24 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"message\":\"Invalid token\"}"
+}
+GET http://localhost:5000/api/user/68e801120507f1edc9490468: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61531
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "c9e44b70-b7c7-432e-9816-5c7181dbab94",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "97",
+    "etag": "W/\"61-HyKeiZV3jBwWpcBL+xYCvaWg8QI\"",
+    "date": "Sat, 11 Oct 2025 21:36:50 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "{\"_id\":\"68e801120507f1edc9490468\",\"name\":\"abhishek pandey\",\"email\":\"abhi36885@gmail.com\",\"__v\":0}"
+}
+GET http://localhost:5000/api/alluser: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 61542
+      },
+      "remote": {
+        "address": "::1",
+        "family": "IPv6",
+        "port": 5000
+      }
+    }
+  },
+  "Request Headers": {
+    "content-type": "application/json",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZTg5Zjc3MjQ3ZWNlNDI0YjExZmNlMyIsImVtYWlsIjoicmFtQGdtYWlsLmNvbSIsImlhdCI6MTc2MDIxODQwOCwiZXhwIjoxNzYwMjIyMDA4fQ.k3dOYkrtGThAkkW51pW6hQW8JDCTnwwasARAssv71G8",
+    "user-agent": "PostmanRuntime/7.48.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "79acbad5-3266-45a2-b7a2-ddbfc6137dc3",
+    "host": "localhost:5000",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "831",
+    "etag": "W/\"33f-WlQqOHkQ3p6Iw+3pPZOosDhN8sU\"",
+    "date": "Sat, 11 Oct 2025 21:37:08 GMT",
+    "connection": "keep-alive",
+    "keep-alive": "timeout=5"
+  },
+  "Response Body": "[{\"_id\":\"68e801120507f1edc9490468\",\"name\":\"abhishek pandey\",\"email\":\"abhi36885@gmail.com\",\"__v\":0},{\"_id\":\"68e801945af186a05ac9bb36\",\"name\":\"abhishek pandey\",\"email\":\"abhi36885@gmail.comcc\",\"__v\":0},{\"_id\":\"68e801ee7626ecb870afe19b\",\"name\":\"abhishek pandey\",\"email\":\"abhi36885@gmail.comsscc\",\"__v\":0},{\"_id\":\"68e80235b06f288c06652caa\",\"name\":\"abhishek pandey\",\"email\":\"abhi36885@gmxxxail.comsscc\",\"__v\":0},{\"_id\":\"68e89f77247ece424b11fce3\",\"name\":\"ram\",\"email\":\"ram@gmail.com\",\"__v\":0},{\"_id\":\"68ea3da41ce1c9fd42946b02\",\"name\":\"kaku\",\"email\":\"kakupandey2017@gmail.com\",\"__v\":0},{\"_id\":\"68ea6ef9dcbc86ce475c6c7b\",\"name\":\"fa@fma.com\",\"email\":\"fa@fma.com\",\"__v\":0},{\"_id\":\"68ea9d301f1ea02afc626edc\",\"name\":\"test\",\"email\":\"test@gmail.com\",\"__v\":0},{\"_id\":\"68eacc25472f14ed2e49b7cb\",\"name\":\"test01\",\"email\":\"test011@gmail.com\",\"__v\":0}]"
+}

@@ -60,6 +60,11 @@ export const deletePosts = async (req, res) => {
     const { id } = req.params;
     //find post
     const post = await Post.findById(id);
+    // if post not exist
+     if (!post) {
+        return res.status(404).json({ message: 'Post not found' });
+      }
+
     // post.postedBy(own) and req.userId from (jwt token) request id , if same mean he is owner of post and can delete
 
     if (post.postedBy.toString() === req.userId) {

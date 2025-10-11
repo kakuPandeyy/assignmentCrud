@@ -20,7 +20,20 @@ export default function PostsFeed() {
       .get(getPostRouter, {
         headers: { Authorization: `Bearer ${token}` },
       })
-      .then(res => setPosts(res.data))
+      .then(
+        res => {
+             // Check if res.data is an array
+      if (Array.isArray(res.data)) {
+        setPosts(res.data);
+      } else if (Array.isArray(res.data.posts)) {
+        // If API returns { posts: [...] }
+        setPosts(res.data.posts);
+      } else {
+        setPosts([]); // fallback to empty array
+      }
+
+    }
+      )
       .catch(err => {
         console.log(err);
         navigate('/login');

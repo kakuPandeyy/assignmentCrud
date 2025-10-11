@@ -11,7 +11,7 @@ function App() {
     <>
       {/* ToastContainer for notification if password invalid or any error come from server  */}
 
-      <ToastContainer position="top-right" autoClose={650} theme="colored" hideProgressBar />
+      <ToastContainer position="top-right" autoClose={1000} theme="colored" hideProgressBar />
 
       <BrowserRouter>
         <Routes>

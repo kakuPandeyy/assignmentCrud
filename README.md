@@ -74,6 +74,18 @@ npm run dev # /client
 http://localhost:5173
 ```
 
+
+## Demo Screenshots
+
+### 🏠 login Page
+![Login Page](./client/public/login.png)
+
+### 📝 register Page
+![Register Post](./client/public/register.png)
+
+### 🔐 feed Page
+![Feed Page](./client/public/feed.png)
+![Feed Page](./client/public/feed2.png)
 # API Documentation
 
 ### Authentication Routes

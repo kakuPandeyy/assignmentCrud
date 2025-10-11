@@ -20,13 +20,12 @@ app.use(express.json()); // automatically parse incoming JSON data from HTTP req
 
 //connect to database by mongoose
 mongoose
-  .connect(process.env.MONGO_URL,{
-      useNewUrlParser: true,     // Recommended options for stable connection
-      useUnifiedTopology: true,  // Helps prevent deprecation warnings
+  .connect(process.env.MONGO_URL, {
+    useNewUrlParser: true, // Recommended options for stable connection
+    useUnifiedTopology: true, // Helps prevent deprecation warnings
   })
   .then(() => console.log('MongoDB Connected'))
   .catch(err => console.log(err));
-
 
 // API Routes
 // Authentication routes (e.g., register, login)

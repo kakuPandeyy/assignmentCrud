@@ -46,7 +46,8 @@ cd assignmentCrud
 ```shellscript
 cd server
 npm install
-npm start
+notepad .env # create .env file  you can paste it blow also
+
 ```
 
 ## Environment Variables (.env)
@@ -63,7 +64,7 @@ PORT = 5000
 ```shellscript
 cd ../client
 npm install
-npm run dev
+
 ```
 
 

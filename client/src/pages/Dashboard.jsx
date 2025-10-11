@@ -64,15 +64,26 @@ export default function Dashboard() {
 
   useEffect(() => {
     //fecth on each rerender
+  
     fecthData();
-
-
-
-    if (token && token!==undefined) {
-      //  retrieving user id from jwt token
+if (token && token !== undefined) {
+  
+  new Promise((resolve, reject) => {
+    try {
       const decoded = jwtDecode(token);
-      setUserId(decoded.id);
+      resolve(decoded.id);
+    } catch (err) {
+      reject(err);
     }
+  })
+    .then((id) => setUserId(id))
+    .catch((err) => console.error("Token decode failed:", err));
+
+
+}
+  
+
+   
   }, []);
 
   //search feature

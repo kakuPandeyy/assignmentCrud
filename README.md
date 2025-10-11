@@ -46,7 +46,7 @@ cd assignmentCrud
 ```shellscript
 cd server
 npm install
-notepad .env # create .env file  you can paste it blow also
+notepad .env # create .env file  
 
 ```
 

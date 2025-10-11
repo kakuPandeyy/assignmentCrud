@@ -68,7 +68,7 @@ export default function Dashboard() {
 
 
 
-    if (token && token===undefined) {
+    if (token && token!==undefined) {
       //  retrieving user id from jwt token
       const decoded = jwtDecode(token);
       setUserId(decoded.id);

@@ -16,6 +16,8 @@ export default function PostsCard({ id, message, userId, postedBy, createdAt, se
   const characters = postUsername?.charAt(0);
 
   useEffect(() => {
+
+   
     //get posts owner details like name, email
     const user = axios.get(`${getUserRouter}/${postedBy}`, {
       headers: {

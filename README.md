@@ -12,13 +12,24 @@ This is a full-stack CRUD (Create, Read, Update, Delete) application with a Reac
 
 ```
 my-crud-app/
-├── client/      # React frontend
-│   └── src/     # Components, pages, etc.
-├── server/      # Node.js backend
-│   ├── models/  # Mongoose schemas
-│   ├── routes/  # API routes
-│   └── controllers/
-└── README.md
+├── client/                     # React frontend
+│   ├── public/
+│   └── src/                    # Components, pages, hooks, etc.
+│       ├── components/
+│       ├── pages/
+│       ├── utils/
+│       └── App.js
+│
+├── server/                     # Node.js backend
+│   ├── config/                 # DB connection or environment config
+│   ├── controllers/            # Controller logic (CRUD, auth, etc.)
+│   ├── models/                 # Mongoose schemas
+│   ├── routes/                 # Express route files
+│   ├── server.js               # Entry point for backend
+│   └── .env                    # Environment variables (ignored in Git)
+│
+├── crudApp.postman.json        # 🧩 Postman collection with all API routes
+└── README.md                   # Project documentation
 ```
 
 # Setup Instructions
@@ -55,11 +66,6 @@ npm install
 npm run dev
 ```
 
-## Environment Variables (.env) Frontend
-
-```shellscript
-VITE_API_URL = http://localhost:5000
-```
 
 ## Restart frontedend and backend
 
@@ -86,6 +92,9 @@ http://localhost:5173
 ### 🔐 feed Page
 ![Feed Page](./client/public/feed.png)
 ![Feed Page](./client/public/feed2.png)
+
+
+
 # API Documentation
 
 ### Authentication Routes

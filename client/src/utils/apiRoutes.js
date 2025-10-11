@@ -1,4 +1,4 @@
-export const host = import.meta.env.VITE_API_URL;
+export const host = "http://localhost:5000";
 export const registerRoute = `${host}/api/auth/register`;
 export const logInRouter = `${host}/api/auth/login`;
 export const deletePostRouter = `${host}/api/deletePost`;

@@ -229,7 +229,7 @@ http://localhost:5173
 - Use load balancers to distribute traffic if app grows.
 - Use CDN for static assets (React build files) to reduce latency.
 - Use caching (Redis or in-memory cache) for frequently requested data.
-
+- **Implement CI/CD pipelines (e.g., GitHub Actions or Jenkins) for automated testing and continuous deployment to streamline releases and ensure reliability.**
 ### Security & Performance
 
 - Enable JWT authentication for secure access.
